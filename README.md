@@ -39,3 +39,4 @@ git cloen xxx
 npm i
 npm run dev
 ```
+![demo](https://github.com/Stevenzwzhai/react-text-diff/blob/master/test/demo.png)
