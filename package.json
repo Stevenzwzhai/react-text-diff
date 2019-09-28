@@ -1,0 +1,49 @@
+{
+  "name": "react-text-diff",
+  "version": "1.0.0",
+  "description": "A react component of diff text",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.config.js",
+    "dev": "webpack-dev-server --config webpack.dev.config.js",
+    "build": "webpack --config webpack.prod.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevenzwzhai/react-text-diff.git"
+  },
+  "keywords": [
+    "react",
+    "diff"
+  ],
+  "author": "Stevenzwzhai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stevenzwzhai/react-text-diff/issues"
+  },
+  "homepage": "https://github.com/Stevenzwzhai/react-text-diff#readme",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "antd": "^3.23.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-node-externals": "^1.7.2"
+  },
+  "dependencies": {
+    "diff": "^4.0.1",
+    "diff2html": "^2.11.3",
+    "highlight.js": "^9.15.10",
+    "prop-types": "^15.7.2",
+    "react": "^16.10.0",
+    "react-dom": "^16.10.0",
+    "react-katex": "^2.0.2"
+  }
+}
