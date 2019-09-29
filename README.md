@@ -9,7 +9,7 @@ npm install react-text-diff
 ## Usage
 ```sh
 import {Component} from 'react';
-import CodeDiff from 'react-text-diff';
+import ReactTextDiff from 'react-text-diff';
 
 class Demo extends Component{
     constructor(props) {
@@ -24,7 +24,7 @@ class Demo extends Component{
     render(){
         return (
             <div>
-                <CodeDiff oldStr={oldStr} newStr={newStr} context={context} outputFormat={outputFormat}/>;
+                <ReactTextDiff oldStr={oldStr} newStr={newStr} context={context} outputFormat={outputFormat}/>;
             </div>
         )
     }
