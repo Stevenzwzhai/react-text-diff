@@ -5,7 +5,7 @@ module.exports = {
     mode: 'production',
     entry: './src/index.js',
     output: {
-        filename: 'bundle.js',
+        filename: 'index.js',
         path: path.resolve(__dirname, './dist'),
         libraryTarget: 'umd'
     },
@@ -27,9 +27,6 @@ module.exports = {
         ]
     },
     externals: {
-        'diff': 'diff',
-        'diff2html': 'diff2html',
-        'highlight.js':'highlight.js',
         'react': 'react'
     }
 };

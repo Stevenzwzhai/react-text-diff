@@ -2,11 +2,12 @@
   "name": "react-text-diff",
   "version": "1.0.0",
   "description": "A react component of diff text",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "start": "webpack-dev-server --config webpack.dev.config.js",
     "dev": "webpack-dev-server --config webpack.dev.config.js",
-    "build": "webpack --config webpack.prod.config.js"
+    "build": "webpack --config webpack.prod.config.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
